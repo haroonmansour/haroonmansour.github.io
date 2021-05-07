@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>Haroon</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<button onclick="window.print()">Print haroon’s Resume</button>
+<h1 title="name" style="font-size:4vw;" onclick="f1()">Haroon Rashed Fathee Mansour</h1>
+
+<p title=" summary " style="font-size:2vw;">A university student, I am 21,<br> studying at An-Najah University
+<br>Specialization IT-Computer science</p>
+<br>
+<center><a href="https://www.facebook.com/100009195893781"style=" font-size:2vw;">my facebook account</a></center>
+<br>
+<br>
+<br>
+<br>
+
+
+<img  src="a.jpg" alt="Computer" style="width:50%;"  >
+<br>
+<h1 style="font-size:4vw;">education</h1>
+<pre style="font-size:2vw;">
+High school : Scientific specialization with a degree of 80
+
+Courses : Computer maintenance course at the Galaxy Institute
+
+University : not graduate
+ 
+</pre>
+<h1 style="font-size:4vw;">work experiences</h1>
+<pre id="demo"  style="font-size:2vw;">
+Galaxy: Work for 6 months to repair devices
+
+Discovery Company: working with software for 4 months
+ 
+</pre>
+<h1 style="font-size:4vw;">hobbies</h1>
+<pre style="font-size:2vw;">
+Motorcycle riding
+
+Mountaineering
+
+Swimming
+
+Drifting 4x4
+ 
+</pre>
+<h3><a href="application.html">go to new page</a></h3>
+<script>
+function f1() {
+  alert("Welcome to haroon site, please let me know if you have any questions");
+}
+</script>
+<script>
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+document.getElementById("demo").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+  document.getElementById("demo").style.color = "green";
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "black";
+}
+</script>
+</body>
+</html>
